@@ -39,7 +39,7 @@ public without sharing class AccountTriggerHandler {
     //         if(accountIdsSet != null && accountIdsSet.size() > 0){
                 
     //             if(account.ParentId != previousParentId && !accountIdsSet.contains(previousParentId)){
-    //                 deleteOldAccountRelationship(account.Id);
+    //                 deleteOldAccountRelationship(account.Id);;
     //         	}
                 
     //             accountIdsNotMapped = getAccountRelationshipRecords(accountIdsSet);
