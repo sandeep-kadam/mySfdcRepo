@@ -6,6 +6,7 @@
 trigger AccountTrigger on Account (after update) {
 
     if(Trigger.isUpdate &&  Trigger.isAfter){
-        AccountTriggerHandler.getAllAccountsHeirarchy(Trigger.New[0],Trigger.OldMap.get(Trigger.New[0].Id).ParentId);
+        // AccountTriggerHandler.getAllAccountsHeirarchy(Trigger.New[0],Trigger.OldMap.get(Trigger.New[0].Id).ParentId);
+        AccountTriggerHandler.displayGreetingMessage();
     }
 }
