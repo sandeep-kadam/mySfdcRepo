@@ -204,6 +204,6 @@ public without sharing class AccountTriggerHandler {
     public static void displayGreetingMessage(){
         System.debug('Good Morning from displayGreetingMessage method');
         System.debug('made changes from dev branch added from master');
-        System.debug('Jenkins Build Test123');
+        System.debug('Jenkins Build Blank Component');
     }
 }
